@@ -11,7 +11,7 @@ connectDB();
 app.use(express.json());
 
 const options = {
-    origin: "*",
+    origin: "https://student-job-tracker-sable.vercel.app/",
     credentials: true,
 }
 app.use(cors(options));
